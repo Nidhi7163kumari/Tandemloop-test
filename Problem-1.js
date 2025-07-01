@@ -24,5 +24,5 @@ console.log(Calc.calculate(10,5, 'add')); // output: 15
 console.log(Calc.calculate(10,5, 'subtract')); // output: 5
 console.log(Calc.calculate(10,5, 'multiply')); // output: 50
 console.log(Calc.calculate(10,5, 'divide')); // output: 2
-console.log(Calc.calculate(10,0, 'divide'));
-console.log(Calc.calculate(10,2, 'pow')) // output: cannot divide by zero
+console.log(Calc.calculate(10,0, 'divide')); // output: cannot divide by zero
+console.log(Calc.calculate(10,2, 'pow')) // output: invalid operation
